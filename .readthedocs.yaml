@@ -10,7 +10,13 @@ build:
   os: ubuntu-24.04
   tools:
     python: "3"
+  jobs:
+    post_checkout:
+      - cp -r recipes/ docs/
 
 python:
   install:
     - requirements: docs/requirements.txt
+
+sphinx:
+  configuration: docs/conf.py

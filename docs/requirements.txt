@@ -5,3 +5,5 @@ tqdm
 futures
 sphinx
 sphinx_rtd_theme
+nbsphinx
+sphinx_gallery
