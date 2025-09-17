@@ -35,6 +35,8 @@ extensions = [
     'sphinx.ext.viewcode',      # Links to source code
     'sphinx.ext.autosectionlabel', # Allows referencing sections by title
     'sphinx_rtd_theme',         # Common theme for Read the Docs
+    'sphinx_gallery.load_style',# For the gallery widget
+    "nbsphinx",                 # To show Jupyter Notebooks as part of the docs
 ]
 
 # Add any paths that contain templates here, relative to this directory.
